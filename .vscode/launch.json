@@ -6,7 +6,7 @@
             "request": "launch",
             "name": "GDB64(yasm)",
             "cwd": "${fileDirname}",
-            "program": "${fileDirname}/${fileBasenameNoExtension}",
+            "program": "${fileDirname}/${fileBasenameNoExtension}.bin",
             "preLaunchTask": "build (64-bit)"
 
         },
@@ -15,7 +15,7 @@
             "request": "launch",
             "name": "GDB32(yasm)",
             "cwd": "${fileDirname}",
-            "program": "${fileDirname}/${fileBasenameNoExtension}",
+            "program": "${fileDirname}/${fileBasenameNoExtension}.bin",
             "preLaunchTask": "build (32-bit)"
         },
     ]
